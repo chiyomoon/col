@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skin1{
+    width: 500px;
+    height: 800px;
+    border: 1px solid red;
+    background-image: url(https://i.namu.wiki/i/FmoeRM46z0L8EMbZUckQ-gADjd0toHjfsaKxrXAsNle3uQWYmSgdQgj4izEiknGK3dCBoT1BA_ol_leuEcq-U2SmRPWz2dQdtsI8EQNBoDjT57-ak0aY7b2KhjHWPwABgPOeKntLccZ8dfB2Kk28tg.webp);
+}
