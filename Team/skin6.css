@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+body{
+    background-color: black;
+}
+h1{
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Song Myung', serif;
+}
+.fa-reply{
+    position: absolute;
+    font-size: 35px;
+    color: aliceblue;
+    margin: 5px 30px;
+}
+.fa-reply:hover{
+    color: cornflowerblue;
+}
+.img1{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 580px;
+    border-radius: 50px;
+    background-image: url(https://i.namu.wiki/i/_gBCt2TclnGIE0wMPdjRpueJGJX1uLoJkDUsF7AorvTwLGsxGQZ60V7bruqZ5Xl0_rlYFY4_konBqpq1bGoVcOjf99eMs-kBhEqR3Rw7XTD37YcIcKtDiSBl5etxRQpwFmQIZv35LHh7m4zu6rhs_g.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
