@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼과제</title>
+</head>
+<body>
+    
+    <form action="">
+        <fieldset>
+        <h1>프런트엔드 개발자 지원서</h1>
+        HTML, CSS, JavaScript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.
+        <hr>
+        <h4>개인정보</h4>
+        <label>이름 <input type="text" placeholder="공백없이 입력하세요" autofocus></label> <br>
+        <label>연락처 <input type="phone"></label> <br><br>
+        
+        <h4>지원분야</h4>  
+        <label for="webp"><input type="radio" name="ww" id="webp" value="w_1">웹 퍼블리싱</label><br>
+        <label for="wa"><input type="radio" name="ww" id="wa" value="w_2">웹 애플리케이션개발</label><br>
+        <label for="wg"><input type="radio" name="ww" id="wg" value="w_2">개발 환경 개선</label>
+        
+        <h4>지원동기</h4>
+        <textarea name="" id="" cols="50" rows="10" placeholder="본사 지원 동기를 간략히 써주세요"></textarea><br>
+
+        <input type="submit" value="접수하기">
+        <input type="reset" value="다시 쓰기">
+    </fieldset>
+    </form>
+
+    <form action="">
+        <h1>상품 주문서</h1>
+        <fieldset> 
+            <legend><strong>개인 정보</strong></legend>
+            <label><b>이름 </b><input type="text" placeholder="여백없이 입력"></label><br><br>
+            <label><b>연락처 </b><input type="phone" placeholder="연락가능한 번호"></label><br><br>
+        </fieldset>
+        <fieldset> 
+            <legend><strong>배송지 정보</strong></legend>
+            <label><b>주소 </b><input type="addr"></label><br><br>
+            <label><b>전화번호 </b><input type="phone"></label><br><br>
+            <label><b>메모 </b><textarea name="" id="" cols="30" rows="10"></textarea></label>
+        </fieldset>
+        <fieldset> 
+            <legend><strong>주문 정보</strong></legend>
+            <label for="origin1">
+                <input type="checkbox" id="origin1">
+            과테말라 안티구아 (100g) <input type="number" min="0" max="10" value="0"> 개
+            </label><br>
+            <label for="origin2">
+                <input type="checkbox" id="origin2">
+                인도네시아 만델링 (100g) <input type="number" min="0" max="10" value="0"> 개
+            </label><br>
+            <label for="origin3">
+                <input type="checkbox" id="origin3">
+                탐라는도다(블렌딩) (100g) <input type="number" min="0" max="10" value="0"> 개
+            </label>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
