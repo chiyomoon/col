@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float연습</title>
+    <style>
+        .full{
+            width: 1000px;
+            border: 1px solid gray;
+            margin: 0;
+            padding: 0;
+        }
+        .tt{
+            border-spacing: 10px;
+        }
+        .t1 {
+            border: 1px solid gray;
+            width: 200px;
+            padding: 10px;
+        }
+        .t2 {
+            border: 1px solid gray;
+            width: 100%;
+            margin: 10px;
+        }
+        .main{
+            box-sizing: border-box;
+            border: 1px solid gray;
+            margin: 10px;
+            padding: 10px;
+        }
+        .list{
+            box-sizing: border-box;
+            border: 1px solid gray;
+            width: 270px;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+        }
+        .main-content{
+            box-sizing: border-box;
+            border: 1px solid gray;
+            width: 400px;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+        }
+        .footer{
+            box-sizing: border-box;
+            border: 1px solid gray;
+            padding: 10px;
+            clear: left;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="full">
+        <div class="images">
+            <table class="tt">
+                <tr>
+                    <td class="t1">
+                        <img src="/images/apple.jpg" width="150px" height="100px">
+                    </td>
+                    <td class="t2">
+                        <h1>제목</h1>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main">
+            <h1>본문</h1>
+        </div>
+        <div class="list">
+            <h3>목차</h3>
+        </div>
+        <div class="main-content">
+            <h3>본문</h3>
+        </div>
+        <div class="list">
+            <h3>목차</h3>
+        </div>
+        <div class="footer">
+            <h5>footer</h5>
+        </div>
+    </div>
+</body>
+</html>

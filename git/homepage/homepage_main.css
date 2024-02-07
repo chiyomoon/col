@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainbox{
+    letter-spacing: 2px;
+    line-height: 5;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 15% 0;
+}
+a img:hover{
+    transform: rotateZ(20deg);
+}
+footer{
+    color: rgb(148, 147, 147);
+    text-align: center;
+    font-size: small;
+    position: relative;
+    margin-top: 4%;
+}

@@ -1,0 +1,7 @@
+공간을 배치하는 요소
+float-배치가 어려움
+position-필요시
+flex//가장 많이 사용됨 최근기술
+
+padding - border 안쪽 여백
+margin - border 바깥 여백
