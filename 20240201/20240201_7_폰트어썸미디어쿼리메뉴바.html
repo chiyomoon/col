@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어쿼리메뉴바</title>
+    <!--폰트어썸 CDN : -->
+
+    <script src="https://kit.fontawesome.com/4ec79785b5.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            height: 70px;
+            background-color: lightblue;
+            padding-top: 15px;
+        }
+        .logo{
+            cursor: pointer;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            /* flex-direction: column; */
+        }
+        li{
+            padding: 0 15px;
+        }
+        a{
+            text-decoration: none;
+            color: gray;
+        }
+        .logologo{
+            color: black;
+        }
+        .fa-star-and-crescent{
+            font-size: 50px;
+        }
+        .fa-music{
+            font-size: 30PX;
+        }
+        .fa-crown{
+            font-size: 30PX;
+        }
+        .fa-cloud
+        {
+            font-size: 150PX;
+            color: lightblue;
+        }
+        /* 창 크기 가로가ㅏ 768이하일 때 */
+        @media screen and (max-width: 768px){
+            nav{
+                height: 170px;
+            }
+            .navbar ul{
+                flex-direction: column;
+            }
+            .navbar ul li{
+                line-height: 2;
+            }
+            .appo{
+                display: none;
+                /* none : 자리차지 안함
+                visibility : 자리차지 함 */
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <a href="index.html" class="logologo"><h1><i class="fa-solid fa-star-and-crescent"></i></h1></a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-music"></i></a></li>
+                <li><a href="#" class="appo"><i class="fa-solid fa-crown"></i></a></li>
+                <li class="appo">Appointment</li>
+            </ul>
+        </div>
+    </nav>
+    <i class="fa-solid fa-cloud"></i>
+</body>
+</html>

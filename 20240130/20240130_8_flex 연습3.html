@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플렉스 연습3</title>
+    <style>
+        section{
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        .box1{
+            box-sizing: border-box;
+            border: 1px solid;
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+        }
+        .box2{
+            box-sizing: border-box;
+            border: 1px solid;
+            top: 50px;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            align-items: center;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box1">div1</div>
+        <div class="box2">div2</div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상요소 연습</title>
+    <style>
+        .b1::before{
+            content: "주문폭주!!";
+            color: aliceblue;
+            background-color: red;
+            margin: 2px;
+        }
+        .b2::after{
+            content: "New!!";
+            color: aliceblue;
+            background-color: blue;
+            margin: 10px;
+            border-radius: 3px;
+        }
+        .b3::after{
+            content: "품절";
+            color: black;
+            background-color: green;
+            margin: 10px;
+            border-radius: 3px;
+        }
+        div li{
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>제품 목록</h1>
+        <ul>
+            <li class="b1">제품 A</li>
+            <li>제품 B</li>
+            <li>제품 B</li>
+            <li>제품 B</li>
+            <li>제품 B</li>
+        </ul>
+    </div>
+    <div>
+        <h1>제품 목록</h1>
+        <ul>
+            <li>제품 A</li>
+            <li>제품 B</li>
+            <li>제품 C</li>
+            <li class="b2">제품 D</li>
+            <li>제품 E</li>
+            <li class="b3">제품 F</li>
+            <li class="b3">제품 G</li>
+        </ul>
+    </div>
+</body>
+</html>

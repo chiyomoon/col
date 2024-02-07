@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹폰트</title>
+    <style>
+        /* CDN = Content Delivery Network
+        파일을 여러 공개 서버에 분산시키고,
+        사용자가 접속하는 지역과 가장 가까운 곳의
+        서버에서 파일을 전송하는 기술 */
+        @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+        /* 글꼴 d2coding 비주얼스튜디오코드 (글자체 변경) -> 다운 -> 글꼴 설치 -> 컴퓨터 (지금 이 자리에서만 보임)
+            웹폰트 - 설치 되어있지 않아도 어디서든 해당 폰트로 보임*/
+    body {
+        font-family: 'Single Day', cursive;
+    }
+    h1 {
+        background-color: blue; 
+    }
+    h2 {
+        width: 100%;
+        text-align: center;
+        /* start : 현재 텍스트 줄의 시작 위치에 맞추어 문단 정렬 */
+        /* end : 현재 텍스트 줄의 끝 위취에 맞추어 문단 정렬 */
+        /* left : 왼쪽부터 */
+        /* right : 오른쪽부터 */
+        /* center : 가운데 정렬 */
+        /* justify : 양쪽에 맞추어 문단 정렬 */
+        /* match-parent : 부모요소에 따라 문단 정렬*/
+    }
+    p{
+        background-color: pink;
+        width: 300px;
+        height: 500px;
+        text-align: left;
+    }
+    span {
+        color: red;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>[날씨] 내일 아침 포근,</h1>
+        <h2>한낮 포근... 내륙 짙은 안개</h2>
+        <p>
+            오늘도 쌀쌀했던 아침과 달리, 낮에는 꽤나 따뜻했는데요.
+            해가 지고 기온이
+                빠르게 떨어지고 있습니다.
+                이렇게 <span>15도 안팎으로</span>
+                크게 나는 일교차에 건강관리에 유의하세요.
+        </p>
+    </div>
+</body>
+</html>

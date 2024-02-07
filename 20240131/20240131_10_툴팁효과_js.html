@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>툴팁효과</title>
+    <style>
+        .tt{
+            cursor: pointer;
+        }
+        .ttc{
+            visibility: hidden;
+            background-color: aqua;
+            width: 200px;
+        }
+        /* 바깥쪽 div에 올리면 안쪽 div가 보임 */
+        .tt.active .ttc{
+            visibility: visible;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>툴팁효과 visibility</h1>
+    <p>
+        visibility 속성 : 화면에서 감추기
+        원래 요소가 있는 공간은 그대로 차지
+        display:none; 은 공간차지도 안함
+        (display:block;)
+    </p>
+    <div class="tt" onclick="toggletoolTip()">
+        <span>여기에 마우스를 올려보세요</span>
+        <div class="ttc">
+            <p>마우스올리면표시됨</p>
+        </div>
+    </div>
+    <script>
+        function toggletoolTip() {
+            let tooltip = document.querySelector('.tt');
+            tooltip.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
