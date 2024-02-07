@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradient03</title>
+    <style>
+        div{
+            width: 500px;
+            height: 300px;
+            border: 1px solid;
+            border-radius: 20px;
+        }
+        .grad1{
+            background: green; /*그라데이션 적용되지 않는 브라우저용*/
+            background: radial-gradient(green, yellow, orange);
+            /* 타원형으로 안쪽에서부터 색 순서대로 적용 */
+        }
+        .grad2{
+            background: blue;
+            background: radial-gradient(circle, blue, white);
+            /* circle 원형 */
+            /* e1lipse 타원형 */
+        }
+        .grad3{
+            background: black;
+            background: radial-gradient(ellipse, purple, gray, white, black);
+        }
+    </style>
+</head>
+<body>
+    <div class="grad1"></div>
+    <div class="grad2"></div>
+    <div class="grad3"></div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3차원회전예제연습</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-around;
+        }
+        .origin div{
+            width: 100px;
+            font-size: 20px;
+            margin: 10px;
+            padding: 10px;
+            transition: all 0.5s;
+        }
+        .rotatex:hover{
+            background-color: orange;
+            transform: rotateX(55deg);
+        }
+        .rotatey:hover{
+            background-color: orange;
+            transform: rotateY(55deg);
+        }
+        .rotatez:hover{
+            background-color: orange;
+            transform: rotateZ(20deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div class="rotatex">box1</div>
+    </div>
+    <div class="origin">
+        <div class="rotatey">box1</div>
+    </div>
+    <div class="origin">
+        <div class="rotatez">box1</div>
+    </div>
+</body>
+</html>

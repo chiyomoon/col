@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(227,228,240);
+        }
+        h1{
+            text-align: center;
+            color: rgb(60,60,104);
+            font-weight: 100;
+            margin: 50px 0;
+        }
+        main{
+            display: flex;
+            padding: 0 20%;
+        }
+        h3{
+            color: gray;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        section{
+            border: rgb(190, 189, 189) 0.5px solid;
+            border-radius: 5px;
+            background-color: #fff;
+            width: 300px;
+            padding: 20px;
+            margin-right: 30px;
+        }
+        section aside{
+            font-size: 18px;
+            font-weight: 600;
+            color: rgb(6, 111, 231);
+        }
+        section aside span{
+            font-size: 30px;
+            font-weight: 700;
+            color: rgb(6, 111, 231);
+        }
+        .img1 img{
+            width: 200px;
+            margin: 40px;
+        }
+        .img3 img{
+            width: 200px;
+            margin: 5px 40px;
+        }
+        section:hover{
+            box-shadow: rgb(0, 0, 0, 0.25) 0px 54px 55px;
+            transform: scaleY(1.04);
+            transform-origin: 0 100%;
+            /* 회전 중심점(원점,기준점)을 지정 (x축, y축, z축) */
+            transition: all 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h1>국민과 함께 성장하는 <b>글로벌 주택금융 리더</b></h1>
+    <main>
+        <section>
+            <h2>아낌e-보금자리론</h2>
+            <h3>0.1%p 더 저렴한 금리</h3>
+            <aside class="img1">
+                최대<br>
+                <span>주택가격 9억원</span> <br>
+                <img src="../images/hf.png">
+            </aside>
+        </section>
+        <section>
+            <h2>u-보금자리론</h2>
+            <h3>우리 가족의 소중한 보금자리 마련</h3>
+            <aside class="img1">
+                최대<br>
+                <span>대출한도 5억원</span> <br>
+                <img src="../images/hf.png">
+            </aside>
+        </section>
+        <section>
+            <h2>내집마련 디딤돌</h2>
+            <h3>내 집 마련 꿈의 실현</h3>
+            <aside class="img3">
+                무주택 세대주 대상<br>
+                <span>저금리<br>
+                주택구입자금 대출</span> <br>
+                <img src="../images/hf.png">
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
