@@ -65,7 +65,7 @@ nav div:hover{
     width: 2000px;
     height: 300px;
     position: relative;
-    animation: image 15s infinite forwards;
+    animation: image 10s infinite ease-out forwards;
 }
 #images li{
     width: 500px;
