@@ -138,5 +138,6 @@ footer{
     font-size: small;
     position: relative;
     width: 100%;
+    bottom: 0;
     margin: 1% 0 1%;
 }
