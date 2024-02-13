@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav a:hover{
+    color: rgb(245, 245, 134);
+}
+nav div:hover{
+    transform: scale(1.2);
+}
+.logo{
+    padding: 1.5%;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.title{
+    margin: 5% 0 5% 12%;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.mainbox1{
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    left: 10%;
+    border: 1px solid gray;
+    border-radius: 40px;
+    width: 80%;
+    padding: 5%;
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 30px;
+    line-height: 2;
+}
+a{
+    color: rgb(63, 63, 171);
+}
+a:hover{
+    color: rgb(153, 153, 63);
+}
+footer{
+    color: rgb(148, 147, 147);
+    text-align: center;
+    font-size: small;
+    position: relative;
+    width: 100%;
+    margin: 1% 0 1%;
+}
